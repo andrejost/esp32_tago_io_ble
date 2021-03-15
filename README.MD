@@ -26,10 +26,11 @@ This project leverages the following components:
 
 ## What to watch when building the project
 
-- This project is based on BLE (Bluetooth Low Energy) which is different from the normal Bluetooth. So use speficic BLE Apps in your cell phone to interact. In my case, I used "nrf Connect" from Nordic Semmiconductor
-- Please put all the necessary credentials in the **Credentials_example.h** file
+- This project is based on BLE (Bluetooth Low Energy) which is different from the normal Bluetooth. So use speficic BLE Apps in your cell phone to interact. In my case, I used **nrf Connect** from Nordic Semmiconductor
+- Please put all the necessary credentials in the **Credentials_example.h** file (Tago.io Device Token, Wifi Password and BLE Necessary UUIDs)
 - File **analysis_example.js** contains the example to be used in Tago.io as an analysis example so you can transform data when showing it in a dashboard.
-- Please look at the mentioned file to resize the partitions of the ESP32 because the standard configuration might not support the size of the program.
+- Please look at the mentioned file to resize the partitions of the ESP32 because the standard configuration might not support the size of the program (See file **huge_app.csv**)
+- IMO, I did not find the Image Feature in the Tago.io Dashboard very straightforward. I did inclue some example PNG which you can use for the example in the folder **Images_traffic_light**
 
 ## Useful links to support used during the project
 
